@@ -1,0 +1,22 @@
+.menu{
+    padding: 0;
+    list-style: none;
+    width: 200px;
+    text-align: center;
+}
+
+.menu li > a{
+    display: block;
+    background-color: black;
+    color: white;
+    padding: 5px;
+}
+
+.sub-menu{
+    border: 1px solid black;
+    display: none;
+}
+
+.sub-menu a{
+    display: block;
+}
